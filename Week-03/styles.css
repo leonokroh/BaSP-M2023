@@ -42,15 +42,116 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
 header{
     background-color: #ECE9F1;
+    width: 1512px;
 }
-#titulo-header {
+.titulo-header {
     font-size: 30px;
     color: #373867;
+    left: 700px;
+    position: relative;
+    bottom: 100px;
     
 }
-#subtitulo-header{
+.subtitulo-header{
     color: #373867;
+    left: 800px;
+    position: relative;
+    bottom: 100px;
 }
 nav{
     background-color: #373867;
+    position: sticky;
+    height: 1800px;
+    width: 212px;
+    text-align: center;
+    top: 15px;
+}
+
+.article-banner{
+  left: 212px;
+  position: relative;
+  bottom: 1800px;
+  width: 1300px;
+}
+.article-banner img{
+  width: 1300px;
+  height: 600px;
+}
+.article-banner h2 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-size: 50px;
+  color: white;
+}
+#p-banner1{
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 300px;
+  left: 400px;
+}
+#p-banner2{
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 350px;
+  left: 400px;
+}
+#p-banner3{
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 400px;
+  left: 460px;
+}
+
+
+
+.article-join{
+  background-color: white;
+  left: 212px;
+  padding: 100px;
+  position: relative;
+  bottom: 1800px;
+  width: 1300px;
+  font-size: 25px;
+}
+.article-join h2{
+  font-size: 40px;
+}
+.article-join img {
+  width: 400px;
+  left: 500px;
+  top: 100px;
+}
+
+.section-images{
+  background-color: white;
+  left: 212px;
+  position: relative;
+  bottom: 1800px;
+  width: 1300px;
+  font-size: 25px;
+}
+.section-images h2{
+  font-size: 50px;
+  background-color: #373867;
+  width: 555px;
+  color: white;
+}
+
+.section-memb{
+  background-color: aqua;
+  left: 212px;
+  position: relative;
+  bottom: 1800px;
+  width: 1300px;
+  font-size: 25px;
+}
+.section-memb h2{
+  font-size: 50px;
+  background-color: #373867;
+  width: 800px;
+  color: white;
 }
