@@ -19,10 +19,10 @@
     <aside>
       <nav>
         <ul class="lista-nav">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">LOG-IN</a></li>
-          <li><a href="#">SIGN-UP</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#" id="ln1">HOME</a></li>
+          <li><a href="#" id="ln2">LOG-IN</a></li>
+          <li><a href="#" id="ln3">SIGN-UP</a></li>
+          <li><a href="#" id="ln4">CONTACT</a></li>
         </ul>
       </nav>
     </aside>
@@ -45,7 +45,7 @@
           <p > yourself, we have everything</p>
           <p > that you could possibly need to</p>
           <p >have better physical health.</p>
-          <img src="../Assets/Images/why-megarocket.png" alt="">
+          <img src="../Assets/Images/why-megarocket.png" alt="" id="img-ab">
         </article>
     </section>
 
@@ -60,7 +60,7 @@
 
     <section title="memberships" class="section-memb">
       <h2>MEGA ROCKET MEMBERSHIP</h2>
-        <article title="only-classes-membership">
+        <article title="only-classes-membership" id="oc-memb">
           <img src="../Assets/Images/kid-membership.png" width="300px" alt="Kid doing exercise" title="Only Classes">
           <h3>ONLY CLASSES MEMBERSHIP</h3>
           <ul>
@@ -70,7 +70,7 @@
          <p>Cheaper for you, and great for starting </p>
          <button>SUSCRIBE!</button>
         </article>
-    <article title="classic-membership">
+    <article title="classic-membership" id="c-memb">
       <img src="../Assets/Images/clasic-membership.png" width="300px" alt="Eldermen doing exercise" title="Classic">
       <h3>CLASSIC MEMBERSHIP</h3>
       <ul>
@@ -78,10 +78,11 @@
         <li>Personalized follow up by a trainer</li>
         <li>Grid display</li>
       </ul>
-      <p>With this membership, you can have anything you need and more!</p>
+      <p>With this membership, you can </p>
+      <p>have anything you need and more!</p>
       <button>JOIN NOW!</button>
     </article>
-     <article title="black-membership">
+     <article title="black-membership" id="b-memb">
         <img src="../Assets/Images/black-membership.png" width="300px" alt="Man lifting weights" title="Black">
         <h3>BLACK MEMBERSHIP</h3>
         <ul>
@@ -90,7 +91,8 @@
           <li>Personalized follow up by a trainer</li>
           <li>Grid display</li>
         </ul>
-        <p>If you want to be THE BEST, this is the membership for you.</p>
+        <p>If you want to be THE BEST, this </p>
+        <p>is the membership for you.</p>
         <button>GO ALL-IN!!</button>
     </article>
  </section>
@@ -99,7 +101,7 @@
     <h2>UNIVERSE MEGA ROCKET!</h2>
     <h3>RESERVATION</h3>
     <p>Here you can tap and make sure to have a place on your favorite class!</p>
-    <img src="../Assets/Images/RESERVATION-.png" width="300px" alt="Reservation-logo" title="reservation">
+    <img src="../Assets/Images/RESERVATION-.png" id="img-sres" width="300px" alt="Reservation-logo" title="reservation">
  </section>
 
  <form action="" class="forms">
@@ -111,15 +113,15 @@
     <input type="checkbox" name="ch2" id="ch2" title="ch2">
     <label for="ch3">I would like to know more about Membership and Prices</label>
     <input type="checkbox" name="ch3" id="ch3" title="ch3"> 
-    <label for="name">Ingress your name...</label>
-    <input type="text" placeholder="Name" required id="name" title="name">
-    <label for="surname">Ingress your surname...</label>
-    <input type="text" placeholder="Surname" required id="surname" title="surname">
-    <label for="mail">Ingress your email...</label>
-    <input type="email" name="email" id="email" required placeholder="example@gmail.com" id="mail" title="mail"> 
-    <label for="text" >Write your messages...</label>
-    <textarea name="text" id="text" cols="30" rows="8" placeholder="Text..."></textarea>
-    <input type="button" value="SUBMIT">
+    <p><label for="name" class="name">Ingress your name...</label></p>
+    <input type="text" placeholder="Name" required class="name" title="name">
+    <p><label for="surname" class="surname">Ingress your surname...</label></p>
+    <input type="text" placeholder="Surname" required class="surname" title="surname">
+    <p><label for="mail" class="email">Ingress your email...</label></p>
+    <input type="email" name="email" class="email" required placeholder="example@gmail.com" id="mail" title="mail"> 
+    <p><label class="text" for="text" >Write your messages...</label></p>
+    <textarea name="text" class="text" cols="30" rows="8" placeholder="Text..."></textarea>
+    <input type="button" value="SUBMIT" id="button-form">
   </div>
 </form>
 </main>

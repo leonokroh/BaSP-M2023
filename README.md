@@ -1,13 +1,15 @@
-# Problemática semanal 02
+# Problemática semanal 03
 
-HTML Introduction with the transition of the landing page of MegaRocket's gym (previous week's work) to html.
+Based on previous week problem (HTML) we stylized the page created in HTML.
+The styles were applied in specific dimentions and sizes with pixels, not percetages.
+As well, some issues of previous week work were fixed.
 
 ## Features
 
-- Introduction to HTML
-- Switch the Landing Page to HTML 
+- Introduction to CSS
+- Landing Page in HTML stylized
 - Repositories with Github
-- Creation of README
+- Updated of README
 
 
 ## Authors
