@@ -61,7 +61,7 @@ header{
 nav{
     background-color: #373867;
     position: sticky;
-    height: 1800px;
+    height: 5400px;
     width: 212px;
     text-align: center;
     top: 15px;
@@ -70,7 +70,7 @@ nav{
 .article-banner{
   left: 212px;
   position: relative;
-  bottom: 1800px;
+  bottom: 5400px;
   width: 1300px;
 }
 .article-banner img{
@@ -113,7 +113,7 @@ nav{
   left: 212px;
   padding: 100px;
   position: relative;
-  bottom: 1800px;
+  bottom: 5400px;
   width: 1300px;
   font-size: 25px;
 }
@@ -130,7 +130,7 @@ nav{
   background-color: white;
   left: 212px;
   position: relative;
-  bottom: 1800px;
+  bottom: 5400px;
   width: 1300px;
   font-size: 25px;
 }
@@ -145,7 +145,7 @@ nav{
   background-color: aqua;
   left: 212px;
   position: relative;
-  bottom: 1800px;
+  bottom: 5400px;
   width: 1300px;
   font-size: 25px;
 }
@@ -154,4 +154,50 @@ nav{
   background-color: #373867;
   width: 800px;
   color: white;
+}
+
+.section-res{
+  background-color: #AACE9B;
+  left: 212px;
+  position: relative;
+  bottom: 5400px;
+  width: 1300px;
+  font-size: 25px;
+  color: white;
+}
+.section-res h2{
+  font-size: 50px;
+  width: 450px;
+  color: white;
+}
+
+.forms{
+  background-color: #ECE9F1;
+  left: 212px;
+  position: relative;
+  bottom: 5400px;
+  width: 600px;
+  height: 800px;
+  font-size: 25px;
+  padding: 350px;
+}
+.forms-1{
+  background-color: white;
+  width: 600px;
+  height: 800px;
+}
+
+.footer{
+  background-color: #D9D9D9;
+  position: relative;
+  bottom: 5400px;
+  width: 1512px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+.footer-1{
+  background-color: white;
+  text-align: center;
+  padding: 15px;
 }
